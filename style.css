@@ -20,9 +20,6 @@ body{
     width: 100%;
 }
 
-.main{
-    /* margin-top: 30px; */
-}
 
 .home{
     font-size:24px;
@@ -46,7 +43,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 100px;
-    height: 500px;
+    min-height: 600px;
     background-color: #1F2937;
 }
 
@@ -74,11 +71,16 @@ body{
 .button-two {
     background-color: #3882F6;
     color: white;
-    padding: 5px 0;
+    padding: 7px 20px;
     border-radius: 10px;
     font-weight: bold;
     width: 100px;
     text-align: center;
+    text-decoration: none;
+}
+
+.button-two {
+    border: white 1px solid;
 }
 
 .button-one:hover,
@@ -92,11 +94,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: white;
-    height: 500px;
+    min-height: 600px;
 }
 
 .info-header-text {
+    text-align: center;
     background-color: white;
     font-size: 36px;
     font-weight: 900;
@@ -115,6 +119,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -129,6 +134,60 @@ body{
 .card-image-container img {
     border: #3882F6 3px solid;
     border-radius: 10px;
-    margin: 0px;
-    padding: 0px;
+    cursor: pointer;
+}
+
+.section-three {
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 50vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.author-quote {
+    color: #1F2937;
+    text-align: right;
+    font-weight: 600;
+    font-size: 28px
+}
+
+.section-four {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    width: 60vw;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cta-header {
+    color: #E5E7EB;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cta-subheader {
+    color: #E5E7EB;
 }
