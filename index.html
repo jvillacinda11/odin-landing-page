@@ -92,7 +92,10 @@
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">Copyright &copy; The Odin Project &nbsp; <span id="year"></span></div>
     </div>
 </body>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </html>
